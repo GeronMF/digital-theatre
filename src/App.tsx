@@ -25,6 +25,32 @@ function App() {
         <Route path="/" element={<LocalizedRoute><LandingPage /></LocalizedRoute>} />
         <Route path="/:lang" element={<LocalizedRoute><LandingPage /></LocalizedRoute>} />
       </Routes>
+      {/* Desktop Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover hidden md:block"
+      >
+        <source
+          src="/media/videos/1739134367455340.mp4"
+          type="video/mp4"
+        />
+      </video>
+      {/* Mobile Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover md:hidden"
+      >
+        <source
+          src="/media/videos/1739134367455340.mp4"
+          type="video/mp4"
+        />
+      </video>
     </BrowserRouter>
   );
 }
