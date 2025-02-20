@@ -113,7 +113,7 @@ const ResponsiveSection = () => {
             <div className="bg-gray-800 p-6 rounded-lg h-full">
               <div className="mb-6 overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444"
+                  src="/media/images/responsive/21-photo-1526925539332-aa3b66e35444.jpeg"
                   alt={t('responsive.adaptive.title')}
                   className="w-full h-48 object-cover transform hover:scale-110 transition-transform duration-500"
                 />
@@ -131,7 +131,7 @@ const ResponsiveSection = () => {
             <div className="bg-gray-800 p-6 rounded-lg h-full">
               <div className="mb-6 overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1481487196290-c152efe083f5"
+                  src="/media/images/responsive/22-photo-1481487196290-c152efe083f5.jpeg"
                   alt={t('responsive.crossbrowser.title')}
                   className="w-full h-48 object-cover transform hover:scale-110 transition-transform duration-500"
                 />
@@ -149,7 +149,7 @@ const ResponsiveSection = () => {
             <div className="bg-gray-800 p-6 rounded-lg h-full">
               <div className="mb-6 overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                  src="/media/images/responsive/23-photo-1498050108023-c5249f4df085.jpeg"
                   alt={t('responsive.testing.title')}
                   className="w-full h-48 object-cover transform hover:scale-110 transition-transform duration-500"
                 />
@@ -213,28 +213,28 @@ const LandingPage = () => {
 
   const products = [
     {
-      image: "https://images.unsplash.com/photo-1563461660947-507ef49e9c47",
+      image: "/media/images/products/photo-1563461660947-507ef49e9c47.jpeg",
       title: t('products.qashqai.title'),
       description: t('products.qashqai.description'),
       price: "₽89,999",
       link: "https://digital-theatre.pro/qashqai-presentation"
     },
     {
-      image: "https://images.unsplash.com/photo-1563461660947-507ef49e9c47",
+      image: "/media/images/products/photo-1563461660947-507ef49e9c47.jpeg",
       title: t('products.logiq.title'),
       description: t('products.logiq.description'),
       price: "₽64,999",
       link: "https://digital-theatre.pro/logiq-e10"
     },
     {
-      image: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4",
+      image: "/media/images/products/photo-1634017839464-5c339ebe3cb4.jpeg",
       title: t('products.apartment.title'),
       description: t('products.apartment.description'),
       price: "₽129,999",
       link: "/apartment-presentation"
     },
     {
-      image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+      image: "/media/images/products/photo-1535223289827-42f1e9919769.jpeg",
       title: t('products.kitchen.title'),
       description: t('products.kitchen.description'),
       price: "₽159,999",
