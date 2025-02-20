@@ -312,7 +312,7 @@ const LandingPage = () => {
           className="absolute inset-0 w-full h-full object-cover hidden md:block"
         >
           <source
-            src="/src/assets/1739134367455340.mp4"
+            src="/media/videos/1739134367455340.mp4"
             type="video/mp4"
           />
         </video>
@@ -326,7 +326,7 @@ const LandingPage = () => {
           className="absolute inset-0 w-full h-full object-cover md:hidden"
         >
           <source
-            src="/src/assets/1739134367455340.mp4"
+            src="/media/videos/1739134367455340.mp4"
             type="video/mp4"
           />
         </video>
