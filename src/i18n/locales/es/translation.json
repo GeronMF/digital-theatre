@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "title": "Teatro Digital",
+    "subtitle": "Sumérgete en un mundo de experiencias digitales exclusivas donde la tecnología se encuentra con el arte",
+    "cta": "Comenzar viaje"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "Creamos presentaciones digitales únicas que ayudan a nuestros clientes a presentar eficazmente sus productos y servicios"
+  },
+  "features": {
+    "title": "Beneficios de la plataforma",
+    "immersive": {
+      "title": "Experiencia inmersiva",
+      "description": "Inmersión completa en el arte digital con efecto de presencia"
+    },
+    "exclusive": {
+      "title": "Contenido exclusivo",
+      "description": "Presentaciones únicas de especialistas líderes"
+    },
+    "premium": {
+      "title": "Calidad premium",
+      "description": "Los más altos estándares de reproducción digital"
+    }
+  },
+  "products": {
+    "title": "Nuestros proyectos",
+    "cta": "Más información",
+    "qashqai": {
+      "title": "Nissan Qashqai",
+      "description": "Presentación interactiva del nuevo crossover"
+    },
+    "logiq": {
+      "title": "LOGIQ E10",
+      "description": "Presentación de equipos médicos"
+    },
+    "apartment": {
+      "title": "Apartamentos",
+      "description": "Tour virtual de apartamentos premium"
+    },
+    "kitchen": {
+      "title": "Equipamiento de cocina",
+      "description": "Equipamiento profesional para restaurantes"
+    }
+  },
+  "responsive": {
+    "title": "Responsive y multiplataforma",
+    "adaptive": {
+      "title": "Diseño adaptativo",
+      "features": [
+        "Optimización para todos los dispositivos",
+        "Interfaz receptiva",
+        "Animaciones suaves"
+      ]
+    },
+    "crossbrowser": {
+      "title": "Multiplataforma",
+      "features": [
+        "Soporte para todos los navegadores",
+        "Rendimiento optimizado",
+        "Tecnologías modernas"
+      ]
+    },
+    "testing": {
+      "title": "Pruebas",
+      "description": "Pruebas exhaustivas en todos los dispositivos"
+    }
+  },
+  "partners": {
+    "title": "Nuestros socios",
+    "list": ["NVIDIA", "Intel", "Adobe", "Autodesk", "Unity", "Epic Games", "Samsung", "Sony"]
+  },
+  "testimonials": {
+    "title": "Testimonios de clientes",
+    "0": {
+      "text": "Calidad de presentación asombrosa y atención al detalle. Nuestro proyecto recibió numerosas críticas positivas.",
+      "author": "Alejandro Pérez",
+      "role": "Director de Marketing"
+    },
+    "1": {
+      "text": "Un equipo de profesionales que realmente entiende las necesidades del cliente. El resultado superó todas las expectativas.",
+      "author": "Elena Sánchez",
+      "role": "Gerente de Proyecto"
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Cómo empezar a trabajar con ustedes?",
+        "answer": "Contáctenos a través del formulario en el sitio web o por teléfono, y discutiremos su proyecto"
+      },
+      {
+        "question": "¿Cuánto tiempo lleva crear una presentación?",
+        "answer": "Los plazos dependen de la complejidad del proyecto, generalmente de 2 a 8 semanas"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para empezar?",
+    "description": "Contáctenos para discutir su proyecto",
+    "button": "Contactar"
+  },
+  "footer": {
+    "company": "Teatro Digital",
+    "description": "Creando presentaciones digitales innovadoras para su negocio",
+    "contacts": {
+      "title": "Contactos"
+    },
+    "social": {
+      "title": "Redes sociales"
+    },
+    "copyright": "Teatro Digital. Todos los derechos reservados."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "name": "Su nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "time": "Hora preferida",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Ocurrió un error. Por favor, inténtelo más tarde."
+  }
+} 

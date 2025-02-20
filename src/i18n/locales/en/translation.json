@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "title": "Digital Theatre",
+    "subtitle": "Immerse yourself in a world of exclusive digital experiences where technology meets art",
+    "cta": "Start Journey"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We create unique digital presentations that help our clients effectively showcase their products and services"
+  },
+  "features": {
+    "title": "Platform Benefits",
+    "immersive": {
+      "title": "Immersive Experience",
+      "description": "Complete immersion in digital art with presence effect"
+    },
+    "exclusive": {
+      "title": "Exclusive Content",
+      "description": "Unique presentations from leading specialists"
+    },
+    "premium": {
+      "title": "Premium Quality",
+      "description": "Highest standards of digital reproduction"
+    }
+  },
+  "products": {
+    "title": "Our Projects",
+    "cta": "Learn More",
+    "qashqai": {
+      "title": "Nissan Qashqai",
+      "description": "Interactive presentation of the new crossover"
+    },
+    "logiq": {
+      "title": "LOGIQ E10",
+      "description": "Medical equipment presentation"
+    },
+    "apartment": {
+      "title": "Apartments",
+      "description": "Virtual tour of premium apartments"
+    },
+    "kitchen": {
+      "title": "Kitchen Equipment",
+      "description": "Professional equipment for restaurants"
+    }
+  },
+  "responsive": {
+    "title": "Responsive and Cross-browser",
+    "adaptive": {
+      "title": "Adaptive Design",
+      "features": [
+        "Optimization for all devices",
+        "Responsive interface",
+        "Smooth animations"
+      ]
+    },
+    "crossbrowser": {
+      "title": "Cross-browser",
+      "features": [
+        "Support for all browsers",
+        "Optimized performance",
+        "Modern technologies"
+      ]
+    },
+    "testing": {
+      "title": "Testing",
+      "description": "Thorough testing on all devices"
+    }
+  },
+  "partners": {
+    "title": "Our Partners",
+    "list": ["NVIDIA", "Intel", "Adobe", "Autodesk", "Unity", "Epic Games", "Samsung", "Sony"]
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "0": {
+      "text": "Amazing presentation quality and attention to detail. Our project received numerous positive reviews.",
+      "author": "Alexander Petrov",
+      "role": "Marketing Director"
+    },
+    "1": {
+      "text": "A team of professionals who truly understand client needs. The result exceeded all expectations.",
+      "author": "Elena Sokolova",
+      "role": "Project Manager"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How to start working with you?",
+        "answer": "Contact us through the form on the website or by phone, and we'll discuss your project"
+      },
+      {
+        "question": "How long does it take to create a presentation?",
+        "answer": "Timing depends on project complexity, usually 2 to 8 weeks"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start?",
+    "description": "Contact us to discuss your project",
+    "button": "Contact Us"
+  },
+  "footer": {
+    "company": "Digital Theatre",
+    "description": "Creating innovative digital presentations for your business",
+    "contacts": {
+      "title": "Contacts"
+    },
+    "social": {
+      "title": "Social Media"
+    },
+    "copyright": "Digital Theatre. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "email": "Email",
+    "phone": "Phone",
+    "time": "Preferred Time",
+    "message": "Message",
+    "submit": "Submit",
+    "submitting": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again later."
+  }
+} 
