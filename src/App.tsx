@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import LandingPage from './pages/LandingPage';
 
-// Компонент-обертка для страниц с поддержкой языка проверка деплоя 7
+// Компонент-обертка для страниц с поддержкой языка проверка деплоя 8
 const LocalizedRoute = ({ children }: { children: React.ReactNode }) => {
   const { i18n } = useTranslation();
   const currentLang = i18n.language;
