@@ -123,5 +123,14 @@
     "submitting": "Sending...",
     "success": "Message sent successfully!",
     "error": "An error occurred. Please try again later."
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "preferredTime": "Preferred Time",
+    "message": "Message",
+    "submit": "Submit"
   }
 } 

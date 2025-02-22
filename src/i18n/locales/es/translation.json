@@ -123,5 +123,14 @@
     "submitting": "Enviando...",
     "success": "¡Mensaje enviado con éxito!",
     "error": "Ocurrió un error. Por favor, inténtelo más tarde."
+  },
+  "contactForm": {
+    "title": "Contáctenos",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "preferredTime": "Hora preferida",
+    "message": "Mensaje",
+    "submit": "Enviar"
   }
 } 
