@@ -13,39 +13,17 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-50 flex gap-2">
-      <button
-        onClick={() => changeLanguage('en')}
-        className={`px-3 py-1 rounded-full ${
-          i18n.language === 'en' ? 'bg-purple-500 text-white' : 'bg-gray-800 text-gray-300'
-        }`}
+    <div className="fixed top-4 right-4 z-50">
+      <select 
+        value={i18n.language} 
+        onChange={(e) => changeLanguage(e.target.value)}
+        className="bg-gray-800 text-white border border-white/20 rounded px-2 py-1"
       >
-        EN
-      </button>
-      <button
-        onClick={() => changeLanguage('es')}
-        className={`px-3 py-1 rounded-full ${
-          i18n.language === 'es' ? 'bg-purple-500 text-white' : 'bg-gray-800 text-gray-300'
-        }`}
-      >
-        ES
-      </button>
-      <button
-        onClick={() => changeLanguage('uk')}
-        className={`px-3 py-1 rounded-full ${
-          i18n.language === 'uk' ? 'bg-purple-500 text-white' : 'bg-gray-800 text-gray-300'
-        }`}
-      >
-        UK
-      </button>
-      <button
-        onClick={() => changeLanguage('ru')}
-        className={`px-3 py-1 rounded-full ${
-          i18n.language === 'ru' ? 'bg-purple-500 text-white' : 'bg-gray-800 text-gray-300'
-        }`}
-      >
-        RU
-      </button>
+        <option value="ru" className="bg-gray-800">RU</option>
+        <option value="en" className="bg-gray-800">EN</option>
+        <option value="uk" className="bg-gray-800">UK</option>
+        <option value="es" className="bg-gray-800">ES</option>
+      </select>
     </div>
   );
 };

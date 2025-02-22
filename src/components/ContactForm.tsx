@@ -80,58 +80,63 @@ const ContactForm = ({ isOpen, onClose }: ContactFormProps) => {
                 <form ref={form} onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      {t('contact.name')}
+                      {t('contactForm.name')}
                     </label>
                     <input
                       type="text"
                       name="from_name"
                       required
+                      placeholder={t('contactForm.name')}
                       className="w-full px-4 py-3 bg-black/50 border border-purple-500/30 rounded-lg focus:outline-none focus:border-purple-500 text-white"
                     />
                   </div>
                   
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Email
+                      {t('contactForm.email')}
                     </label>
                     <input
                       type="email"
                       name="from_email"
                       required
+                      placeholder={t('contactForm.email')}
                       className="w-full px-4 py-3 bg-black/50 border border-purple-500/30 rounded-lg focus:outline-none focus:border-purple-500 text-white"
                     />
                   </div>
                   
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Телефон
+                      {t('contactForm.phone')}
                     </label>
                     <input
                       type="tel"
                       name="phone"
+                      placeholder={t('contactForm.phone')}
                       className="w-full px-4 py-3 bg-black/50 border border-purple-500/30 rounded-lg focus:outline-none focus:border-purple-500 text-white"
                     />
                   </div>
                   
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Предпочтительное время
+                      {t('contactForm.preferredTime')}
                     </label>
                     <input
                       type="text"
                       name="preferred_time"
+                      placeholder={t('contactForm.preferredTime')}
                       className="w-full px-4 py-3 bg-black/50 border border-purple-500/30 rounded-lg focus:outline-none focus:border-purple-500 text-white"
                     />
                   </div>
                   
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Сообщение
+                      {t('contactForm.message')}
                     </label>
                     <textarea
                       name="message"
-                      rows={4}
-                      className="w-full px-4 py-3 bg-black/50 border border-purple-500/30 rounded-lg focus:outline-none focus:border-purple-500 text-white resize-none"
+                      required
+                      placeholder={t('contactForm.message')}
+                      className="w-full px-4 py-3 bg-black/50 border border-purple-500/30 rounded-lg focus:outline-none focus:border-purple-500 text-white h-32"
                     />
                   </div>
 
