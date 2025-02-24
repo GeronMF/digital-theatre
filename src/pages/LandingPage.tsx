@@ -48,10 +48,19 @@ const ParallaxSection = ({ children }: { children: React.ReactNode }) => {
 // Компонент карточки продукта
 const ProductCard = ({ product, index }: { product: any; index: number }) => {
   const { t, i18n } = useTranslation();
-  const currentLang = i18n.language;
   
-  // Формируем URL с учетом текущего языка
-  const productUrl = currentLang === 'en' ? product.link : `/${currentLang}${product.link}`;
+  // Получаем только основной код языка (ru, en, es, uk)
+  const getLanguageCode = () => {
+    return i18n.language.split('-')[0];
+  };
+  
+  // Формируем URL для Qashqai с учетом языка
+  const getProductUrl = () => {
+    if (product.title === t('products.qashqai.title')) {
+      return `/qashqai-presentation/${getLanguageCode()}/`;
+    }
+    return product.link;
+  };
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -81,7 +90,7 @@ const ProductCard = ({ product, index }: { product: any; index: number }) => {
           <div className="flex items-center justify-between">
             <span className="text-xl text-purple-400">{product.price}</span>
             <a 
-              href={productUrl}
+              href={getProductUrl()}
               className="bg-white text-black px-6 py-3 rounded-full flex items-center gap-2 hover:bg-purple-400 hover:text-white transition-colors duration-300"
             >
               <ShoppingBag className="w-4 h-4" />
@@ -217,7 +226,7 @@ const LandingPage = () => {
       title: t('products.qashqai.title'),
       description: t('products.qashqai.description'),
       price: "₽89,999",
-      link: "https://digital-theatre.pro/qashqai-presentation"
+      link: "https://digital-theatre.pro/qashqai-presentation/ru"
     },
     {
       image: "/media/images/products/photo-1563461660947-507ef49e9c47.jpeg",
